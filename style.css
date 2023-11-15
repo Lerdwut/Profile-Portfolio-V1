@@ -11,6 +11,17 @@ html, body {
 a {
     text-decoration: none;
 }
+.left .bg-img {
+  background: url('img/attendance_system.jpg') center center no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
 
 @media screen and (max-width: 400px) {
     .left-inner,
